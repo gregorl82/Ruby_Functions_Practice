@@ -107,5 +107,6 @@ def volume_of_sphere(number)
 end
 
 def fahrenheit_to_celsius(number)
-  return (number - 32) * 5 / 9
+  temp_in_c = (number.to_f - 32.0) * 5.0 / 9.0
+  return temp_in_c.round(1)
 end
