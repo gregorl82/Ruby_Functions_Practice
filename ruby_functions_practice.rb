@@ -94,3 +94,9 @@ def number_to_short_month_name(number)
     return "Not a number that corresponds to a month"
   end
 end
+
+# Further
+
+def volume_of_cube(number)
+  return number ** 3
+end
